@@ -1,5 +1,5 @@
 export const fetchApi = async (endpoint: string, options: RequestInit = {}) => {
-  const baseUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000';
+  const baseUrl = process.env.NEXT_PUBLIC_API_URL || 'http://62.146.178.245/';
   const url = `${baseUrl}${endpoint}`;
 
   const defaultOptions: RequestInit = {
