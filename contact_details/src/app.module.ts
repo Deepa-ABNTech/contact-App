@@ -6,7 +6,7 @@ import { NestModule } from '@nestjs/common';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb://localhost:27017/Contact_Details'),
+    MongooseModule.forRoot('mongodb://http://62.146.178.245/Contact_Details'),
     ContactModule,
   ],
 })
